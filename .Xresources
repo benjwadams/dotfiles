@@ -1,0 +1,12 @@
+UXTerm*faceName: DejaVu Sans Mono For Powerline
+!UXTerm*faceName: Literation Mono Powerline
+!UXTerm*faceName: Sauce Code Powerline Regular
+UXTerm*faceSize: 12
+
+UXTerm*vt100*geometry: 80x50
+UXTerm*background:   #090929
+UXTerm*foreground:   gray
+UXTerm*termName:    xterm-256color
+
+UXterm.vt100.Translations:  #override \
+    Shift Ctrl<Key> Insert:    insert-selection(CLIPBOARD)

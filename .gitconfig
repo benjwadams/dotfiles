@@ -1,0 +1,19 @@
+[user]
+	email = changeme@change.com
+	name = Benjamin Adams
+[push]
+	default = simple
+[remote "origin"]
+	receivepack = git receive-pack
+	uploadpack = git upload-pack
+[core]
+	excludesfile = /home/benjamin/.gitignore
+[alias]
+	st = status
+[core]
+    whitespace = trailing-space,space-before-tab
+	autocrlf = input
+[apply]
+    whitespace = fix
+[merge]
+	tool = vimdiff
